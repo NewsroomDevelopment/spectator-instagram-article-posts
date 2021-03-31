@@ -23,6 +23,7 @@ function App() {
   
   return (
     <div style={{width:"60%", margin: "auto"}}>
+      <h1> Spectator's Instagram Articles List </h1>
       <Gallery photos={data} onClick={openPhoto} />
       </div>
   );
