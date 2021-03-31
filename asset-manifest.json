@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/spectator-instagram-article-posts/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/spectator-instagram-article-posts/static/js/main.0f508d9e.chunk.js",
-    "main.js.map": "/spectator-instagram-article-posts/static/js/main.0f508d9e.chunk.js.map",
-    "runtime-main.js": "/spectator-instagram-article-posts/static/js/runtime-main.0cd4f8f3.js",
-    "runtime-main.js.map": "/spectator-instagram-article-posts/static/js/runtime-main.0cd4f8f3.js.map",
-    "static/js/2.6374da06.chunk.js": "/spectator-instagram-article-posts/static/js/2.6374da06.chunk.js",
-    "static/js/2.6374da06.chunk.js.map": "/spectator-instagram-article-posts/static/js/2.6374da06.chunk.js.map",
-    "static/js/3.28f516e1.chunk.js": "/spectator-instagram-article-posts/static/js/3.28f516e1.chunk.js",
-    "static/js/3.28f516e1.chunk.js.map": "/spectator-instagram-article-posts/static/js/3.28f516e1.chunk.js.map",
+    "main.js": "/spectator-instagram-article-posts/static/js/main.127be673.chunk.js",
+    "main.js.map": "/spectator-instagram-article-posts/static/js/main.127be673.chunk.js.map",
+    "runtime-main.js": "/spectator-instagram-article-posts/static/js/runtime-main.52fccb11.js",
+    "runtime-main.js.map": "/spectator-instagram-article-posts/static/js/runtime-main.52fccb11.js.map",
+    "static/js/2.2ff229dd.chunk.js": "/spectator-instagram-article-posts/static/js/2.2ff229dd.chunk.js",
+    "static/js/2.2ff229dd.chunk.js.map": "/spectator-instagram-article-posts/static/js/2.2ff229dd.chunk.js.map",
+    "static/js/3.31bf9b90.chunk.js": "/spectator-instagram-article-posts/static/js/3.31bf9b90.chunk.js",
+    "static/js/3.31bf9b90.chunk.js.map": "/spectator-instagram-article-posts/static/js/3.31bf9b90.chunk.js.map",
     "index.html": "/spectator-instagram-article-posts/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/spectator-instagram-article-posts/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.6374da06.chunk.js.LICENSE.txt": "/spectator-instagram-article-posts/static/js/2.6374da06.chunk.js.LICENSE.txt",
+    "static/js/2.2ff229dd.chunk.js.LICENSE.txt": "/spectator-instagram-article-posts/static/js/2.2ff229dd.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/spectator-instagram-article-posts/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cd4f8f3.js",
-    "static/js/2.6374da06.chunk.js",
+    "static/js/runtime-main.52fccb11.js",
+    "static/js/2.2ff229dd.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.0f508d9e.chunk.js"
+    "static/js/main.127be673.chunk.js"
   ]
 }
