@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spectator-instagram-article-posts/static/css/main.5d859582.chunk.css",
-    "main.js": "/spectator-instagram-article-posts/static/js/main.234a9303.chunk.js",
-    "main.js.map": "/spectator-instagram-article-posts/static/js/main.234a9303.chunk.js.map",
+    "main.js": "/spectator-instagram-article-posts/static/js/main.45d92892.chunk.js",
+    "main.js.map": "/spectator-instagram-article-posts/static/js/main.45d92892.chunk.js.map",
     "runtime-main.js": "/spectator-instagram-article-posts/static/js/runtime-main.4a5ec1d5.js",
     "runtime-main.js.map": "/spectator-instagram-article-posts/static/js/runtime-main.4a5ec1d5.js.map",
     "static/js/2.9a24a4e5.chunk.js": "/spectator-instagram-article-posts/static/js/2.9a24a4e5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4a5ec1d5.js",
     "static/js/2.9a24a4e5.chunk.js",
     "static/css/main.5d859582.chunk.css",
-    "static/js/main.234a9303.chunk.js"
+    "static/js/main.45d92892.chunk.js"
   ]
 }
