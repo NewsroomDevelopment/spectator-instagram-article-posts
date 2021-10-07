@@ -3,7 +3,6 @@ import Gallery from "react-photo-gallery";
 import Tabletop from "tabletop";
 import styled from 'styled-components';
 import './App.css';
-import Vue from 'vue';
 import Papa from 'papaparse';
 
 
