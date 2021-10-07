@@ -4,6 +4,13 @@ object-assign
 @license MIT
 */
 
+/* @license
+Papa Parse
+v5.3.1
+https://github.com/mholt/PapaParse
+License: MIT
+*/
+
 /** @license React v0.20.2
  * scheduler.production.min.js
  *
