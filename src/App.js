@@ -3,6 +3,8 @@ import Gallery from "react-photo-gallery";
 import Tabletop from "tabletop";
 import styled from 'styled-components';
 import './App.css';
+import Vue from 'vue';
+import Papa from 'papaparse';
 
 
 const Container = styled.div`
@@ -68,6 +70,7 @@ function getWindowDimensions() {
   };
 }
 
+const sheetsURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSikeF_nZ65EwjjMAcy0iGqU_0Kb59OSpcj20XZCdVvWafGK9HrkJp0MWPILrF0tQxuOs5RVDCf6VdX/pub?output=csv";
 
 function App() {
 
@@ -75,20 +78,21 @@ function App() {
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
   useEffect(() => {
-    Tabletop.init({
-      key: "17ZLB9Kbu4O9IF4g464NayCzDur4gv9jPlwQDIqEIwgo",
-      simpleSheet: true
-    })
-      .then((data) => {
-        data = data.map(i => {
+    Papa.parse(sheetsURL, {
+      download: true,
+      header: true,
+      complete: (results) => {
+        console.log(results)
+        results.data = results.data.map(i => {
           i["width"] = 1;
           i["height"] = 1;
           return i;
         })
-        setData(data.reverse())
-      })
-      .catch((err) => console.warn(err));
+        setData(results.data.reverse())
+      }
+    });
   }, []);
+
 
   const openPhoto = useCallback((event, { photo }) => {
     window.open(photo.link, "_blank")
